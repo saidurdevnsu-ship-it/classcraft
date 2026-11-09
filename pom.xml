@@ -11,10 +11,10 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.javaeduapp</groupId>
-    <artifactId>javaeduapp-backend</artifactId>
+    <groupId>com.classcraft</groupId>
+    <artifactId>classcraft-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>JavaEduApp Backend</name>
+    <name>ClassCraft Backend</name>
     <description>School LMS and HR REST API</description>
 
     <properties>

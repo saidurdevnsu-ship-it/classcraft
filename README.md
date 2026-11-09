@@ -1,4 +1,4 @@
-# JavaEduApp Backend
+# ClassCraft Backend
 
 Spring Boot REST API for an education management app: HR (employees, departments, attendance, leave, holidays), a question bank (subjects, grades, questions, blueprints, academic events), notifications, audit logging, and role-based users with JWT authentication.
 
@@ -14,7 +14,7 @@ Spring Boot REST API for an education management app: HR (employees, departments
 ## Project structure
 
 ```
-src/main/java/com/javaeduapp/
+src/main/java/com/classcraft/
 ├── auth/          Login, JWT service and filter
 ├── user/          Users and roles
 ├── hr/            Employees, departments, designations, attendance, leave, holidays
@@ -86,5 +86,5 @@ The API runs on http://localhost:8080.
 
 ```bash
 mvn clean package
-java -jar target/javaeduapp-backend-0.0.1-SNAPSHOT.jar
+java -jar target/classcraft-backend-0.0.1-SNAPSHOT.jar
 ```
